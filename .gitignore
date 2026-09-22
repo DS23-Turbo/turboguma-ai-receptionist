@@ -1,0 +1,25 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Cloudflare local secrets
+.dev.vars
+.dev.vars.*
+
+# Node
+node_modules/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Private source materials
+docs/screenshots/*
+docs/demo/*
